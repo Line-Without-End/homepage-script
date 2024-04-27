@@ -21,7 +21,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/root/homepage
-ExecStart=/bin/bash pnpm start
+ExecStart=/root/.local/share/pnpm/pnpm start
 Restart=on-failure
 
 [Install]
